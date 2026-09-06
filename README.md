@@ -7,7 +7,7 @@ Melihat kembali halaman statis ini adalah pengingat visual yang menyenangkan ten
 ## 🚀 Fitur Halaman
 *   **Halaman Utama (Beranda):** Menampilkan profil singkat, daftar kegiatan sekolah, tabel jadwal pelajaran, dan area *login* siswa[cite: 1].
 *   **Form Pendaftaran & Aktivitas:** Halaman form dasar yang menampilkan *input* pendaftaran serta rincian kegiatan[cite: 2].
-*   **Integrasi Multimedia:** Penggunaan tag `<video>` HTML5 untuk memutar video secara lokal dan penataan aset visual gambar[cite: 1].
+*   **Integrasi Multimedia:** Penggunaan tag `<video>` HTML5 untuk memutar video secara lokal (© Kemdikbud - 2017) dan penataan aset visual gambar[cite: 1]
 *   **Layouting Dasar:** Implementasi **CSS Flexbox** murni (tanpa *framework*) untuk membagi area konten secara berdampingan pada layar[cite: 1].
 
 ## 🛠️ Teknologi yang Digunakan
