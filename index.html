@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sekolah Cerdas Nusantara</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eef4f8;
+        }
+        .container {
+            width: 800px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+        header {
+            background: url('pngtree-a-beautiful-mountain-lake-with-clear-blue-water-image_17291654.jpg') no-repeat center;
+            background-size: cover;
+            height: 200px;
+        }
+        nav {
+            background-color: #004b87;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            display: flex;
+            padding: 15px;
+        }
+        .left {
+            width: 30%;
+            padding: 10px;
+            background: #f5faff;
+        }
+        .right {
+            width: 70%;
+            padding: 10px;
+        }
+        footer {
+            background-color: #004b87;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        form {
+            background-color: #eef;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        input[type=text], input[type=password] {
+            width: 95%;
+            padding: 5px;
+            margin-bottom: 8px;
+        }
+        input[type=submit] {
+            background: #004b87;
+            color: white;
+            border: none;
+            padding: 6px 12px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        article {
+            margin-bottom: 20px;
+        }
+        article img {
+            float: left;
+            width: 120px;
+            height: 80px;
+            margin-right: 10px;
+            border-radius: 5px;
+            object-fit: cover;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 15px;
+        }
+        th, td {
+            border: 1px solid #aaa;
+            padding: 8px;
+            text-align: left;
+        }
+        video {
+            width: 100%;
+            margin-top: 10px;
+            border-radius: 8px;
+        }
+        h3 {
+            color: #004b87;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <header></header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#">Profil</a>
+        <a href="#">Kegiatan</a>
+        <a href="#">Guru</a>
+        <a href="#">Kontak</a>
+    </nav>
+
+    <div class="content">
+        <!-- SIDE KIRI -->
+        <div class="left">
+            <h3>Login Siswa</h3>
+            <form>
+                <label>Username</label><br>
+                <input type="text" name="username"><br>
+                <label>Password</label><br>
+                <input type="password" name="password"><br>
+                <input type="submit" value="Login">
+            </form>
+            <p>Belum punya akun?<br>
+            <a href="pendaftaran.html">Daftar</a></p>
+        </div>
+
+        <!-- SIDE KANAN -->
+        <div class="right">
+            <article>
+                <img src="literasi.jpeg" alt="Kegiatan Sekolah">
+                <h3>Kegiatan Literasi Siswa</h3>
+                <p>Setiap pagi siswa Sekolah Cerdas Nusantara mengikuti kegiatan membaca buku selama 15 menit untuk meningkatkan minat baca sejak dini.</p>
+            </article>
+
+            <article>
+                <img src="labora.jpeg" alt="Laboratorium Sains">
+                <h3>Praktikum di Laboratorium Sains</h3>
+                <p>Siswa belajar secara interaktif melalui percobaan nyata di laboratorium. Program ini mendukung pembelajaran berbasis proyek dan riset.</p>
+            </article>
+
+            <h3>Jadwal Pelajaran Hari Ini</h3>
+            <table>
+                <tr><th>Jam</th><th>Mata Pelajaran</th><th>Guru</th></tr>
+                <tr><td>07.30 - 08.30</td><td>Matematika</td><td>Bu Sari</td></tr>
+                <tr><td>08.30 - 09.30</td><td>Bahasa Indonesia</td><td>Pak Hendra</td></tr>
+                <tr><td>09.45 - 10.45</td><td>IPA</td><td>Bu Nani</td></tr>
+                <tr><td>11.00 - 12.00</td><td>IPS</td><td>Pak Adi</td></tr>
+            </table>
+
+            <h3>Video Profil Sekolah</h3>
+            <video controls>
+                <source src="Literasi_Digital,_Keluarga_Hebat_Keluarga_Terlibat(360p).mp4" type="video/mp4">
+                <Browser Anda tidak mendukung video.>
+            </video>
+        </div>
+    </div>
+
+    <footer>
+        Copyright © Sekolah Cerdas Nusantara - 2025
+    </footer>
+</div>
+</body>
+</html>

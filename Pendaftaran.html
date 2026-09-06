@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Bebas</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        header {
+    width: 100%; /* Ubah lebar menjadi 100% agar responsif */
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    color: rgba(245, 245, 245, 0.652);
+    font-size: 20px;
+    background-image: url("pngtree-a-beautiful-mountain-lake-with-clear-blue-water-image_17291654.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; /* Pastikan gambar latar berada di tengah */
+}
+
+
+        .navbar ul {
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar ul li {
+            margin: 0 15px;
+        }
+
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        /* Container for forms and activity */
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .login-form, .registration-form {
+            width: 45%;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+        }
+
+        form input, form select, form button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        form button {
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+
+        form button[type="reset"] {
+            background-color: #f44336;
+        }
+
+        .activity {
+            width: 20%;
+        }
+
+        .schedule h3 {
+            text-align: center;
+        }
+
+        .schedule ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .schedule ul li {
+            background-color: #e0e0e0;
+            margin: 5px 0;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #4CAF50;
+            text-align: center;
+            color: white;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Tour</a></li>
+                <li><a href="#">Schedule</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="login-form">
+            <form action="#" method="post">
+                <h2>Login</h2>
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="username">
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="password">
+
+                <button type="submit">Login</button>
+                <button type="button">Daftar</button>
+            </form>
+        </div>
+
+        <div class="registration-form">
+            <form action="#" method="post">
+                <h2>Form Pendaftaran</h2>
+                <label for="fullname">Nama Lengkap</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Nama Lengkap">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Email">
+
+                <label for="phone">Telp</label>
+                <input type="text" id="phone" name="phone" placeholder="Telepon">
+
+                <label for="package">Paket</label>
+                <select id="package" name="package">
+                    <option value="tour">Tour</option>
+                    <option value="premium">Premium</option>
+                    <option value="standard">Standard</option>
+                </select>
+
+                <label for="payment-method">Metode Pembayaran</label>
+                <select id="payment-method" name="payment-method">
+                    <option value="credit-card">Credit Card</option>
+                    <option value="bank-transfer">Bank Transfer</option>
+                </select>
+
+                <button type="reset">Reset</button>
+                <button type="submit">Daftar</button>
+            </form>
+        </div>
+
+        <div class="activity">
+            <div class="schedule">
+                <h3>Activity</h3>
+                <ul>
+                    <li>9:00 Visit Picasso Museum</li>
+                    <li>11:00 Coffee at Satan's Coffee Corner</li>
+                    <li>13:30 Explore 6th Quarter</li>
+                    <li>17:00 Flamenco show at Tablao Cordobés</li>
+                    <li>20:00 Tapas at El Xompanyet</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Copyright @T_MUHAMMAD_IQBAL_NAZWAN & 2024020255</p>
+    </footer>
+</body>
+</html>
